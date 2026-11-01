@@ -1,16 +1,35 @@
-# lara2
+# Branth-Chemie – Website-Relaunch
 
-lara2.0
+Ein moderner, schlanker Neuaufbau der Website von **Branth-Chemie A.V. Branth KG** (Glinde bei Hamburg), dem Hersteller von Brantho-Korrux.
 
-## Getting Started
+## Aufbau
 
-This project is a starting point for a Flutter application.
+```
+index.html        Startseite (One-Pager): Hero, 3in1, Sortiment, Komfortdose,
+                  Anwendungen, Unternehmen, Händlersuche, Kontakt
+impressum.html    Impressum
+datenschutz.html  Datenschutzerklärung (Vorlage – vor Livegang prüfen!)
+css/styles.css    Gesamtes Styling (Custom Properties, responsive, ohne Framework)
+js/main.js        Mobile Navigation, Produktfilter, Scroll-Animationen, Formulare
+assets/           Logo und Produktillustration (SVG)
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Eigenschaften
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Reines HTML/CSS/JS – kein Build-Schritt, keine Abhängigkeiten, keine externen Requests
+- Responsive (Mobile-First-Navigation), barrierearm (Skip-Link, ARIA, Fokusstile, `prefers-reduced-motion`)
+- Datensparsam: keine Cookies, kein Tracking, keine Webfonts von Drittanbietern
+- Kontakt- und Händlerformular öffnen das E-Mail-Programm des Besuchers (statisch hostbar)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Lokal ansehen
+
+```bash
+python3 -m http.server 8000
+# http://localhost:8000
+```
+
+## Vor dem Livegang
+
+- Echte Produktfotos, das Originallogo und die vollständige Produktliste (inkl. Datenblätter) einpflegen
+- Datenschutzerklärung durch die rechtsverbindliche Fassung ersetzen
+- Optional: Formulare an einen Server-Endpunkt anbinden und echte Händlerdatenbank integrieren

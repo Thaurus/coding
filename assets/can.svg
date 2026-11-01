@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Lackdose Brantho-Korrux 3in1">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#9aa6b2"/>
+      <stop offset=".18" stop-color="#eef1f4"/>
+      <stop offset=".45" stop-color="#c3cbd3"/>
+      <stop offset=".8" stop-color="#e3e7eb"/>
+      <stop offset="1" stop-color="#8d99a6"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a1f36"/>
+      <stop offset=".35" stop-color="#1b4470"/>
+      <stop offset="1" stop-color="#0a1f36"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" x2="1">
+      <stop offset="0" stop-color="#b93a12"/>
+      <stop offset=".35" stop-color="#f06a3a"/>
+      <stop offset="1" stop-color="#b93a12"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="226" rx="84" ry="10" fill="#000" opacity=".25"/>
+  <path d="M16 36v176c0 9 37.6 16 84 16s84-7 84-16V36H16Z" fill="url(#body)"/>
+  <path d="M16 62v124c0 8 37.6 15 84 15s84-7 84-15V62c0 8-37.6 15-84 15S16 70 16 62Z" fill="url(#label)"/>
+  <path d="M16 150v14c0 8 37.6 15 84 15s84-7 84-15v-14c0 8-37.6 15-84 15s-84-7-84-15Z" fill="url(#band)"/>
+  <ellipse cx="100" cy="36" rx="84" ry="16" fill="#d5dbe1"/>
+  <ellipse cx="100" cy="36" rx="72" ry="12" fill="#b4bdc6"/>
+  <ellipse cx="100" cy="34" rx="64" ry="9" fill="#e5e9ed"/>
+  <text x="100" y="108" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#ffffff" opacity=".8">BRANTHO-KORRUX</text>
+  <text x="100" y="142" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#ffffff">3in1</text>
+  <text x="100" y="194" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="1" fill="#ffffff" opacity=".6">KORROSIONSSCHUTZ</text>
+</svg>
